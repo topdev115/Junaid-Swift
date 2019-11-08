@@ -1,0 +1,6 @@
+framework module Pods_junaid_junaidUITests {
+  umbrella header "Pods-junaid-junaidUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

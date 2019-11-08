@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  junaid
+
+  Created by Administrator on 2019/10/22.
+  Copyright © 2019 Zemin Li. All rights reserved.
+*/
+
+"Junaid Perfumes" = "Junaid Perfumes";
+
+"OK" = "OK";
+"Done" = "Done";
+"Cancel" = "Cancel";
+"Back" = "Back";
+"Loading..." = "Loading...";
+
+"Select date" = "Select date";
+"Select country" = "Select country";
+"Select store" = "Select store";
+
+"Could not connect to the server.\nPlease check the internet connection!" = "Could not connect to the server.\nPlease check the internet connection!";
+
+"Invalid Credential" = "Invalid Credential";
+"Confirm password doesn't match" = "Confirm password doesn't match";
+"Invalid email" = "Invalid email";
+"Invalid phone number" = "Invalid phone number";
+"Invalid mobile number" = "Invalid mobile number";
+
+"Are you sure to log out?" = "Are you sure to log out?";
+
+"Your Feedback..." = "Your Feedback...";
+
+"Choose Photo" = "Choose Photo";
+"Camera" = "Camera";
+"Gallery" = "Gallery";
+
+"%d of %d answered" = "%d of %d answered";
+"%d%" = "%d%";
