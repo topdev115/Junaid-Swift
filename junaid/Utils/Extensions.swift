@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MaterialComponents.MaterialSnackbar
 
 extension Data {
     mutating func append(string: String) {
@@ -45,6 +46,12 @@ extension UIViewController {
     
     func serverRequestEnd() {
         LoadingIndicatorView.hide();
+    }
+    
+    func showSnackbar(message: String) {
+        let msg = MDCSnackbarMessage()
+        msg.text = message
+        MDCSnackbarManager.show(msg)
     }
 }
 

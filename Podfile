@@ -24,7 +24,14 @@ target 'junaid' do
   # Swift image slideshow with circular scrolling, timer and full screen viewer
   pod 'ImageSlideshow'
   
+  #The simplest way to make your table view paginable
   pod 'PagingTableView'
+  
+  # A custom reusable circular / progress slider control for iOS application.
+  pod 'HGCircularSlider'
+  
+  # Material Components - Snackbar
+  pod 'MaterialComponents/Snackbar'
 
   target 'junaidTests' do
     inherit! :search_paths

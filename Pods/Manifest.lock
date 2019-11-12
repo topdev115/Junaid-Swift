@@ -73,12 +73,67 @@ PODS:
     - GoogleUtilities/Logger
   - GoogleUtilities/UserDefaults (6.3.1):
     - GoogleUtilities/Logger
+  - HGCircularSlider (2.2.0)
   - ImageSlideshow (1.8.1):
     - ImageSlideshow/Core (= 1.8.1)
   - ImageSlideshow/Core (1.8.1)
   - Kingfisher (5.9.0):
     - Kingfisher/Core (= 5.9.0)
   - Kingfisher/Core (5.9.0)
+  - MaterialComponents/AnimationTiming (94.0.0)
+  - MaterialComponents/Buttons (94.0.0):
+    - MaterialComponents/Elevation
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Shapes
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - MaterialComponents/Elevation (94.0.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Ink (94.0.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/OverlayWindow (94.0.0):
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Application (94.0.0)
+  - MaterialComponents/private/Color (94.0.0)
+  - MaterialComponents/private/KeyboardWatcher (94.0.0):
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Math (94.0.0)
+  - MaterialComponents/private/Overlay (94.0.0)
+  - MaterialComponents/Ripple (94.0.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/ShadowElevations (94.0.0)
+  - MaterialComponents/ShadowLayer (94.0.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/Shapes (94.0.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/Snackbar (94.0.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Buttons
+    - MaterialComponents/Elevation
+    - MaterialComponents/OverlayWindow
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/KeyboardWatcher
+    - MaterialComponents/private/Math
+    - MaterialComponents/private/Overlay
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+  - MaterialComponents/Typography (94.0.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (2.0.0)
+  - MDFTextAccessibility (2.0.0)
   - nanopb (0.3.901):
     - nanopb/decode (= 0.3.901)
     - nanopb/encode (= 0.3.901)
@@ -93,8 +148,10 @@ DEPENDENCIES:
   - Firebase
   - Firebase/Core
   - Firebase/Messaging
+  - HGCircularSlider
   - ImageSlideshow
   - Kingfisher
+  - MaterialComponents/Snackbar
   - PagingTableView
   - SideMenu
 
@@ -113,8 +170,12 @@ SPEC REPOS:
     - GoogleDataTransport
     - GoogleDataTransportCCTSupport
     - GoogleUtilities
+    - HGCircularSlider
     - ImageSlideshow
     - Kingfisher
+    - MaterialComponents
+    - MDFInternationalization
+    - MDFTextAccessibility
     - nanopb
     - PagingTableView
     - Protobuf
@@ -134,13 +195,17 @@ SPEC CHECKSUMS:
   GoogleDataTransport: 166f9b9f82cbf60a204e8fe2daa9db3e3ec1fb15
   GoogleDataTransportCCTSupport: f6ab1962e9dc05ab1fb938b795e5b310209edeec
   GoogleUtilities: f895fde57977df4e0233edda0dbeac490e3703b6
+  HGCircularSlider: afb1942743a2df156dcc7a3500216e523e14266b
   ImageSlideshow: 634865d7d4e96f21e3830a31b51bde768cc94cea
   Kingfisher: ff98240aebb7302bdc4f1ecd701761030ce18b16
+  MaterialComponents: af933df927a64ba202b3162bd59ff0fe746686cb
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  MDFTextAccessibility: 85c09a1bd9c321f494348e632a25063bcda35a53
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   PagingTableView: ba7869ff22f7cf3f8b2190b0314688d2cb0e46c4
   Protobuf: a4dc852ad69c027ca2166ed287b856697814375b
   SideMenu: e49a7d61d1f50e9bdaa866bbb9fc7d903c6400ed
 
-PODFILE CHECKSUM: bb8a3894cd00434291683cc24a03715e683b4490
+PODFILE CHECKSUM: 90763a6d28afc804541fc791caf031cea795569b
 
 COCOAPODS: 1.8.3

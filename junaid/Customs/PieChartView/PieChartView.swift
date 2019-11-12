@@ -259,7 +259,7 @@ public class PieChartView: UIView {
         for (index, item) in items.enumerated() {
             item.startAngle = index == 0 ? π / 2 : items[index - 1].endAngle
             if items.count == 1 {
-                totalRatio = 100
+                totalRatio = 100.001
             }
             item.endAngle = item.startAngle! + (360 * item.ratio / totalRatio).degreesToRadians
             if item.endAngle! > 2 * π {

@@ -99,7 +99,6 @@ class ProductController: UITableViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
         if let searchVC = segue.destination as? SearchProductController {            
             if segue.identifier == "segueNewProduct" {
                 searchVC.category = "New".localizedString

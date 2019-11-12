@@ -29,11 +29,16 @@ struct Constants {
         static let EDIT_COMMENT = API_URL + "/post-comment/"
         static let DELETE_COMMENT = API_URL + "/post-comment/"
         
+        static let FETCH_QUIZ_TYPE = API_URL + "/quiz-list"
+        static let GET_QUESTION_BY_TYPE = API_URL + "/questionnaire"
+        static let SUBMIT_ANSWER = API_URL + "/questionnaire"
+        
         static let FETCH_PRODUCT = API_URL + "/product"
         static let FETCH_PRODUCT_HOME = API_URL + "/product-home"
         static let FETCH_PRODUCT_DETAIL = API_URL + "/product/"
         static let SEARCH_PRODUCT = API_URL + "/search-product"
         
+        static let REG_FCM_ID = API_URL + "/gcm"
         static let FETCH_NOTIFICATIONS = API_URL + "/notification"
         
         static let GET_USERS_SCORECARD = API_URL + "/prev-month-users-scorecard"
@@ -47,6 +52,10 @@ struct Constants {
     static let DATE_FORMAT = "MM-dd-yyyy"
     
     static let PAGE_SIZE = 10
+    
+    static let QUIZ_TYPE_TEXT = "text"
+    static let QUIZ_TYPE_IMAGE = "image"
+    static let QUIZ_SALES_PITCH = "sales_pitch"
     
     /*
     static let CLIENT_ID: Int = 1;

@@ -34,5 +34,29 @@
 "Camera" = "Camera";
 "Gallery" = "Gallery";
 
+"%d of %d" = "%d of %d";
 "%d of %d answered" = "%d of %d answered";
 "%d%" = "%d%";
+
+"month" = "month";
+"week" = "week";
+
+"Your Answer..." = "Your Answer...";
+"Quiz not found!" = "Quiz not found!";
+"Quiz for this %@ has been completed" = "Quiz for this %@ has been completed";
+
+"Please enter answer" = "Please enter answer";
+"Please select option" = "Please select option";
+
+"Continue later" = "Continue later";
+"Quiz Submitted Successfully" = "Quiz Submitted Successfully";
+
+"Next Question" = "Next Question";
+"Finish" = "Finish";
+
+"Poor" = "Poor";
+"Fair" = "Fair";
+"Moderate" = "Moderate";
+"Good" = "Good";
+"Very Good" = "Very Good";
+"Excellent" = "Excellent";

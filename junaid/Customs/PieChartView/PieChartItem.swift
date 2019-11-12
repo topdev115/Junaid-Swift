@@ -16,8 +16,8 @@ class PieChartItem {
     var endAngle: CGFloat?
     var title: String?
     
-    public init(ratio: uint, color: UIColor, title: String? = nil) {
-        self.ratio = CGFloat(ratio)
+    public init(ratio: CGFloat, color: UIColor, title: String? = nil) {
+        self.ratio = ratio
         self.color = color
         self.title = title
     }
