@@ -147,6 +147,7 @@
 		C389D67F2367677400699D30 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		C389D681236767E200699D30 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		C389D68323676A3900699D30 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		C3ABD593237BB6F500C9C257 /* junaid.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = junaid.entitlements; sourceTree = "<group>"; };
 		C3B3464123602E160040044A /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		C3B5E5932369135200A36FD5 /* CountryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryController.swift; sourceTree = "<group>"; };
 		C3B5E59523691BBD00A36FD5 /* CityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityController.swift; sourceTree = "<group>"; };
@@ -259,6 +260,7 @@
 		C355A013235F3D81003C5D80 /* junaid */ = {
 			isa = PBXGroup;
 			children = (
+				C3ABD593237BB6F500C9C257 /* junaid.entitlements */,
 				C355A014235F3D81003C5D80 /* AppDelegate.swift */,
 				C355A05C235F4CA2003C5D80 /* Common */,
 				C355A078235F6B31003C5D80 /* Customs */,
@@ -485,6 +487,11 @@
 				TargetAttributes = {
 					C355A010235F3D81003C5D80 = {
 						CreatedOnToolsVersion = 10.2;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					C355A024235F3D89003C5D80 = {
 						CreatedOnToolsVersion = 10.2;
@@ -885,6 +892,7 @@
 			baseConfigurationReference = 0E1B3B650B7F3EC5A490EE0E /* Pods-junaid.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = junaid/junaid.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 5WFXNA28GK;
@@ -907,6 +915,7 @@
 			baseConfigurationReference = 1379096B0A84C5C0113A9AA3 /* Pods-junaid.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = junaid/junaid.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 5WFXNA28GK;

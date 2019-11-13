@@ -41,6 +41,14 @@
 "month" = "month";
 "week" = "week";
 
+"New" = "New";
+"All" = "All";
+
+"Related Products Quiz" = "Related Products Quiz";
+"Products Quiz" = "Products Quiz";
+"Sales Pitch Quiz" = "Sales Pitch Quiz";
+"Monthly Quiz" = "Monthly Quiz";
+
 "Your Answer..." = "Your Answer...";
 "Quiz not found!" = "Quiz not found!";
 "Quiz for this %@ has been completed" = "Quiz for this %@ has been completed";

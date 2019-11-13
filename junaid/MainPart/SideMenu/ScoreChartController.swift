@@ -174,7 +174,7 @@ class ScoreChartController: UIViewController {
         productLabel.text = chartData.label
         
         chartData = calculatePercent(relatedProductQuestions, forKind: .weekly)
-        displayPie(ratio: chartData.percent, color: .init(red: 0.0/255.0, green: 164.0/255.0, blue: 243.0/255.0, alpha: 1.0), target: weekRelatedProductFrame)
+        displayPie(ratio: chartData.percent, color: .init(red: 147.0/255.0, green: 0.0/255.0, blue: 170.0/255.0, alpha: 1.0), target: weekRelatedProductFrame)
         relatedProductLabel.text = chartData.label
         
         chartData = calculatePercent(salesPitchQuestions, forKind: .salesPitch)
