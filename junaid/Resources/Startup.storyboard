@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8g3-9b-7y6">
-    <device id="retina6_1" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8g3-9b-7y6">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -32,7 +30,7 @@
         <!--Log In-->
         <scene sceneID="cIN-dQ-1YM">
             <objects>
-                <viewController storyboardIdentifier="LoginController" id="i1h-dl-WnP" customClass="LoginController" customModule="junaid" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginController" modalPresentationStyle="fullScreen" id="i1h-dl-WnP" customClass="LoginController" customModule="junaid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bf5-h2-1kz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -47,22 +45,20 @@
                                 <rect key="frame" x="0.0" y="291.5" width="414" height="506.5"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ctY-bF-VcX" userLabel="input panel">
-                                        <rect key="frame" x="0.0" y="123.5" width="414" height="259.5"/>
+                                        <rect key="frame" x="0.0" y="119.5" width="414" height="267.5"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Employee Code" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WEk-fE-3Al" customClass="PaddingTextField" customModule="junaid" customModuleProvider="target">
-                                                <rect key="frame" x="30" y="20" width="354" height="30"/>
-                                                <nil key="textColor"/>
+                                                <rect key="frame" x="30" y="20" width="354" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <textField opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bKQ-pD-9L5" customClass="PaddingTextField" customModule="junaid" customModuleProvider="target">
-                                                <rect key="frame" x="30" y="70" width="354" height="30"/>
-                                                <nil key="textColor"/>
+                                                <rect key="frame" x="30" y="74" width="354" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="72e-KP-Acz">
-                                                <rect key="frame" x="261" y="120" width="123" height="30"/>
+                                                <rect key="frame" x="261" y="128" width="123" height="30"/>
                                                 <state key="normal" title="Forgot password?">
                                                     <color key="titleColor" red="0.023529411764705882" green="0.13333333333333333" blue="0.58823529411764708" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
@@ -71,7 +67,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hbZ-VE-OBJ">
-                                                <rect key="frame" x="83" y="190" width="248" height="49.5"/>
+                                                <rect key="frame" x="83" y="198" width="248" height="49.5"/>
                                                 <color key="backgroundColor" red="0.79607843137254897" green="0.67450980392156867" blue="0.31372549019607843" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="hbZ-VE-OBJ" secondAttribute="height" multiplier="5:1" id="FJq-6h-u5e"/>
@@ -178,7 +174,7 @@
         <!--Forgot password-->
         <scene sceneID="xU7-t1-WTH">
             <objects>
-                <viewController storyboardIdentifier="ForgotPasswordController" id="r7c-iI-dYK" customClass="ForgotPasswordController" customModule="junaid" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ForgotPasswordController" modalPresentationStyle="fullScreen" id="r7c-iI-dYK" customClass="ForgotPasswordController" customModule="junaid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wuS-DR-iB8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -193,16 +189,15 @@
                                 <rect key="frame" x="0.0" y="291.5" width="414" height="470.5"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eUQ-gf-Wff" userLabel="input panel">
-                                        <rect key="frame" x="0.0" y="155.5" width="414" height="159.5"/>
+                                        <rect key="frame" x="0.0" y="153.5" width="414" height="163.5"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email Id" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DYV-h6-Ee5" customClass="PaddingTextField" customModule="junaid" customModuleProvider="target">
-                                                <rect key="frame" x="30" y="20" width="354" height="30"/>
-                                                <nil key="textColor"/>
+                                                <rect key="frame" x="30" y="20" width="354" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VP3-wh-dyq">
-                                                <rect key="frame" x="83" y="90" width="248" height="49.5"/>
+                                                <rect key="frame" x="83" y="94" width="248" height="49.5"/>
                                                 <color key="backgroundColor" red="0.79607843140000001" green="0.67450980390000004" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="VP3-wh-dyq" secondAttribute="height" multiplier="5:1" id="TD8-Qq-dda"/>
@@ -270,7 +265,7 @@
         <!--Sign Up-->
         <scene sceneID="55k-3U-PRk">
             <objects>
-                <viewController storyboardIdentifier="SignupController" id="Qfb-ep-04y" customClass="SignupController" customModule="junaid" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignupController" modalPresentationStyle="fullScreen" id="Qfb-ep-04y" customClass="SignupController" customModule="junaid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KOn-Jl-BB7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -291,32 +286,27 @@
                                                 <rect key="frame" x="20" y="20" width="374" height="260"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8v7-gg-bnh" customClass="PaddingTextField" customModule="junaid" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="374" height="30"/>
-                                                        <nil key="textColor"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="374" height="34"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                     <textField opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="451-PG-C6N" customClass="PaddingTextField" customModule="junaid" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="57.5" width="374" height="30"/>
-                                                        <nil key="textColor"/>
+                                                        <rect key="frame" x="0.0" y="56.5" width="374" height="34"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                     <textField opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9PR-t2-8QK" customClass="PaddingTextField" customModule="junaid" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="115" width="374" height="30"/>
-                                                        <nil key="textColor"/>
+                                                        <rect key="frame" x="0.0" y="113" width="374" height="34"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                                                     </textField>
                                                     <textField opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Phone" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PPc-ST-K1s" customClass="PaddingTextField" customModule="junaid" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="172.5" width="374" height="30"/>
-                                                        <nil key="textColor"/>
+                                                        <rect key="frame" x="0.0" y="169.5" width="374" height="34"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
                                                     </textField>
                                                     <textField opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Date of Birth" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ycv-cx-8BL" customClass="PaddingTextField" customModule="junaid" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="230" width="374" height="30"/>
-                                                        <nil key="textColor"/>
+                                                        <rect key="frame" x="0.0" y="226" width="374" height="34"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
@@ -329,38 +319,32 @@
                                                 <rect key="frame" x="20" y="315" width="374" height="310"/>
                                                 <subviews>
                                                     <textField opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Salesman Code" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Aod-gc-IoC" customClass="PaddingTextField" customModule="junaid" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="374" height="30"/>
-                                                        <nil key="textColor"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="374" height="34"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                     <textField opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="m1l-b7-WME" customClass="PaddingTextField" customModule="junaid" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="56" width="374" height="30"/>
-                                                        <nil key="textColor"/>
+                                                        <rect key="frame" x="0.0" y="55.5" width="374" height="34"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                                     </textField>
                                                     <textField opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirm Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZKa-sK-noB" customClass="PaddingTextField" customModule="junaid" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="112" width="374" height="30"/>
-                                                        <nil key="textColor"/>
+                                                        <rect key="frame" x="0.0" y="110.5" width="374" height="34"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                                     </textField>
                                                     <textField opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Select Store" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ORb-da-Ikd" customClass="PaddingTextField" customModule="junaid" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="168" width="374" height="30"/>
-                                                        <nil key="textColor"/>
+                                                        <rect key="frame" x="0.0" y="165.5" width="374" height="34"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                     <textField opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Select Country" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6kw-Il-8l3" customClass="PaddingTextField" customModule="junaid" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="224" width="374" height="30"/>
-                                                        <nil key="textColor"/>
+                                                        <rect key="frame" x="0.0" y="221" width="374" height="34"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                     <textField opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Date of Joining" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vKo-wo-TtJ" customClass="PaddingTextField" customModule="junaid" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="280" width="374" height="30"/>
-                                                        <nil key="textColor"/>
+                                                        <rect key="frame" x="0.0" y="276" width="374" height="34"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
